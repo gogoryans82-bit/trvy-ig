@@ -1,0 +1,33 @@
+# Java
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# Env & secrets — CRITICAL
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+application-local.yml
+
+# Node
+node_modules/
+dist/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
